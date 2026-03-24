@@ -2,43 +2,43 @@ import { links, stats } from '../content'
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden px-5 pb-24 pt-16 md:px-8 md:pb-32 md:pt-20">
+    <section className="relative overflow-hidden px-4 pb-16 pt-10 md:px-8 md:pb-32 md:pt-20">
       <div className="hero-glow pointer-events-none absolute -left-20 top-10 h-80 w-80 rounded-full" aria-hidden="true" />
       <div className="hero-glow pointer-events-none absolute -right-24 bottom-2 h-80 w-80 rounded-full" aria-hidden="true" />
 
-      <div className="mx-auto grid max-w-6xl gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-        <div className="space-y-8 animate-fade-up">
+      <div className="mx-auto grid max-w-6xl gap-10 md:gap-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+        <div className="space-y-6 md:space-y-8 animate-fade-up">
           <p className="inline-flex rounded-full border border-bronze/35 bg-white/90 px-4 py-2 text-xs uppercase tracking-[0.22em] text-ink/65">
             Collection privée - EVJF / EVG / Week-end
           </p>
-          <h1 className="max-w-2xl font-serif text-5xl leading-[0.9] text-ink sm:text-6xl md:text-[4.45rem]">
+          <h1 className="max-w-2xl font-serif text-[2.45rem] leading-[0.92] text-ink sm:text-6xl md:text-[4.45rem]">
             Le week-end parfait commence
             <br className="hidden md:block" />
             par une organisation impeccable.
           </h1>
-          <p className="max-w-2xl text-lg leading-relaxed text-ink/72 md:text-xl">
-            Vous ne vendez pas une simple page web à vos invitées.
+          <p className="max-w-2xl text-base leading-relaxed text-ink/72 sm:text-lg md:text-xl">
+            Vous ne vendez pas une simple page web à vos invités.
             <br className="hidden md:block" />
             Vous leur offrez une expérience claire, élégante et fluide, dans un espace privé personnalisé où tout est
             centralisé.
           </p>
-          <div className="flex flex-col gap-4 sm:flex-row">
+          <div className="flex flex-col gap-3 sm:flex-row sm:gap-4">
             <a
               href={links.demo}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-full bg-ink px-8 py-3.5 text-sm font-semibold uppercase tracking-[0.12em] text-ivory shadow-premium transition hover:-translate-y-0.5 hover:bg-ink/90"
+              className="inline-flex w-full items-center justify-center rounded-full bg-ink px-8 py-3.5 text-sm font-semibold uppercase tracking-[0.12em] text-ivory shadow-premium transition hover:-translate-y-0.5 hover:bg-ink/90 sm:w-auto"
             >
               Voir la démo
             </a>
             <a
               href={links.request}
-              className="inline-flex items-center justify-center rounded-full border border-ink/35 bg-white/90 px-8 py-3.5 text-sm font-semibold uppercase tracking-[0.12em] text-ink transition hover:-translate-y-0.5 hover:border-ink"
+              className="inline-flex w-full items-center justify-center rounded-full border border-ink/35 bg-white/90 px-8 py-3.5 text-sm font-semibold uppercase tracking-[0.12em] text-ink transition hover:-translate-y-0.5 hover:border-ink sm:w-auto"
             >
               Demander mon site
             </a>
           </div>
-          <p className="text-sm font-medium text-ink/65">
+          <p className="text-xs font-medium leading-relaxed text-ink/65 sm:text-sm">
             Site personnalisé en 48h • Aucun compte à créer • Accessible sur téléphone
           </p>
           <div className="grid gap-3 pt-2 sm:grid-cols-3">
@@ -56,13 +56,13 @@ function Hero() {
           <div className="absolute -bottom-10 -right-5 h-28 w-28 rounded-full border border-ink/10" aria-hidden="true" />
           <div className="relative overflow-hidden rounded-[2.2rem] border border-ink/10 bg-gradient-to-br from-white via-cream to-blush p-5 shadow-premium">
             <div className="mb-4 flex items-center justify-between rounded-2xl border border-ink/10 bg-white/90 px-4 py-2 text-xs uppercase tracking-[0.18em] text-ink/60">
-              <span>Aperçu expérience invitées</span>
+              <span>Aperçu expérience invités</span>
               <span>Collection Signature</span>
             </div>
             <div className="space-y-4 rounded-2xl bg-ivory/88 p-5">
               <div className="rounded-xl border border-ink/10 bg-white px-4 py-3">
                 <p className="text-xs uppercase tracking-[0.14em] text-ink/50">Intention</p>
-                <p className="pt-1 font-serif text-2xl leading-tight text-ink">Chaque détail compte, chaque invitée se sent attendue.</p>
+                <p className="pt-1 font-serif text-2xl leading-tight text-ink">Chaque détail compte, chaque personne se sent attendue.</p>
               </div>
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="rounded-xl border border-ink/10 bg-white px-4 py-3">

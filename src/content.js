@@ -1,12 +1,12 @@
 ﻿export const links = {
-  demo: 'https://votre-demo.com',
-  request: 'mailto:hello@votredomaine.fr?subject=Demande%20de%20site%20%C3%A9v%C3%A9nementiel',
+  demo: 'https://awe-demo.netlify.app/',
+  request: 'mailto:wooloxcontact@gmail.com?subject=Commande%20de%20site%20%C3%A9v%C3%A9nementiel',
 }
 
 export const stats = [
   { value: 'Gain de temps immédiat', label: 'moins d’allers-retours dans les conversations' },
   { value: '48h pour être en ligne', label: 'un cadre clair très rapidement' },
-  { value: 'Une expérience plus élégante', label: 'vos invitées comprennent sans effort' },
+  { value: 'Une expérience plus élégante', label: 'vos invités comprennent sans effort' },
 ]
 
 export const painPoints = [
@@ -22,8 +22,8 @@ export const benefits = [
     text: 'Programme, adresses, budget, votes, présences: tout est ordonné dans un seul espace privé.',
   },
   {
-    title: 'Une expérience invitées fluide et premium',
-    text: 'Un seul lien suffit. Chacune comprend quoi faire, quand et comment participer.',
+    title: 'Une expérience invités fluide et premium',
+    text: 'Un seul lien suffit. Chaque personne comprend quoi faire, quand et comment participer.',
   },
   {
     title: 'Moins de charge mentale, plus de sérénité',
@@ -111,6 +111,14 @@ export const pricingTiers = [
   },
 ]
 
+export const addOns = [
+  {
+    name: 'Export du livre d’or en PDF',
+    price: '30 EUR',
+    description: 'Version livrable ou imprimable, prête à conserver comme souvenir du week-end.',
+  },
+]
+
 export const faqItems = [
   {
     question: 'Est-ce que le site est vraiment personnalisé ?',
@@ -121,7 +129,7 @@ export const faqItems = [
     answer: 'En général, 48h après réception de vos informations.',
   },
   {
-    question: 'Mes invitées doivent-elles installer une application ?',
+    question: 'Mes invités doivent-ils installer une application ?',
     answer: 'Non. Le site fonctionne directement depuis leur téléphone.',
   },
   {

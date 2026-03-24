@@ -2,12 +2,12 @@ import { faqItems } from '../content'
 
 function FAQSection() {
   return (
-    <section className="border-y border-ink/10 bg-white/65 px-5 py-24 md:px-8" id="faq">
+    <section className="border-y border-ink/10 bg-white/65 px-4 py-16 md:px-8 md:py-24" id="faq">
       <div className="mx-auto max-w-5xl">
         <div className="max-w-3xl animate-fade-up">
           <p className="text-xs uppercase tracking-[0.2em] text-ink/50">FAQ</p>
-          <h2 className="pt-4 font-serif text-4xl leading-tight text-ink md:text-5xl">Les questions qu’on me pose le plus souvent.</h2>
-          <p className="pt-5 text-lg leading-relaxed text-ink/75">
+          <h2 className="pt-4 font-serif text-3xl leading-tight text-ink md:text-5xl">Les questions qu’on me pose le plus souvent.</h2>
+          <p className="pt-5 text-base leading-relaxed text-ink/75 md:text-lg">
             Tout est pensé pour que vous avanciez vite, sereinement, et sans complexité.
           </p>
         </div>
